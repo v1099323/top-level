@@ -985,7 +985,7 @@
       });
     const h = document.querySelector(".button-up");
     window.addEventListener("scroll", () => {
-      (window.pageYOffset || document.documentElement.scrollTop) > 100
+      (window.pageYOffset || document.documentElement.scrollTop) > 500
         ? h.classList.add("button-up_active")
         : h.classList.remove("button-up_active");
     }),
